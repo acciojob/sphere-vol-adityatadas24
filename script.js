@@ -10,7 +10,7 @@ function volume_sphere() {
 
        
         const volumeField = document.getElementById("Volume");
-        volumeField.value = volume.toFixed(2); 
+        volumeField.value = volume.toFixed(4); 
     } else {
      
       document.getElementById("volumn").value = "NaN";
